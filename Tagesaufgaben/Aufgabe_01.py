@@ -5,10 +5,10 @@ from PIL import Image, ImageTk
 root = tk.Tk()
 
 # Bild zuerst laden
-image = Image.open("wood-background.jpg").resize((600, 400))
+image = Image.open("bilder/wood-background.jpg").resize((600, 400))
 photo = ImageTk.PhotoImage(image)
 
-image2 = Image.open("dragon.jpg").resize((600, 400))
+image2 = Image.open("bilder/dragon.jpg").resize((600, 400))
 photo2 = ImageTk.PhotoImage(image2)
 
 # Dann das Label mit dem Bild erstellen

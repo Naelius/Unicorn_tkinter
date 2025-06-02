@@ -16,7 +16,7 @@ bool_var = tk.BooleanVar(value=False)
 
 # === Bild laden und anzeigen ===
 try:
-    image = Image.open("beispielbild.jpg")  # Stelle sicher, dass das Bild existiert!
+    image = Image.open("bilder/dragon.jpg")  # Stelle sicher, dass das Bild existiert!
     image = image.resize((200, 150))  # Bild skalieren
     photo = ImageTk.PhotoImage(image)
     image_label = ttk.Label(root, image=photo)
